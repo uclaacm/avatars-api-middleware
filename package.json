@@ -3,7 +3,7 @@
   "version": "0.2.2-alpha.0",
   "description": "",
   "engines": {
-    "node": "9.4.x"
+    "node": "14.15.1"
   },
   "scripts": {
     "test": "mocha --exit",

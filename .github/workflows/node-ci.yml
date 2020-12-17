@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: apt-get install imagemagick graphicsmagick
+    - run: sudo apt-get install imagemagick graphicsmagick
     - run: npm install
     - run: npm run prod_build --if-present
     - run: npm test

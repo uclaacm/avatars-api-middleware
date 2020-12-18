@@ -2,6 +2,10 @@
 
 ![node CI](https://github.com/uclaacm/avatars-api-middleware/workflows/node%20CI/badge.svg)
 
+This is a fork of adorable's [adorable avatars API middleware](https://github.com/itsthatguy/avatars-api-middleware). Unfortunately, it looks like Adorable (the company) restructured, and as a result took down the public-facing API + maintenance of the repo; this fork aims to continue the upkeep and improve on this wonderful software!
+
+The rest of this README is copied verbatim from the original project.
+
 ## What is it?
 This repository contains the [express middleware](https://expressjs.com/en/guide/using-middleware.html#middleware.router) that can be used to host your own avatars service!
 
